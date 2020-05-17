@@ -1,3 +1,4 @@
+/* Always direct parent */
 .wrapper {
   display: flex;
 }
