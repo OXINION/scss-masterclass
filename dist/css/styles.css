@@ -1,11 +1,25 @@
 /* Always direct parent */
-.wrapper {
+.father {
   display: flex;
+  justify-content: space-around;
+  height: 50vh;
 }
 
-.box {
+.child {
   width: 100px;
   height: 100px;
   background: black;
   color: white;
+}
+
+.child:nth-child(3) {
+  order: -1;
+}
+
+.child:nth-child(1) {
+  align-self: flex-end;
+}
+
+.child:nth-child(2) {
+  align-self: flex-end;
 }
